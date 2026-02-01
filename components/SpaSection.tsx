@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Wind, Waves } from "lucide-react";
+import spaimageAsset from "../assets/spa.avif"
 
 export const SpaSection: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ export const SpaSection: React.FC = () => {
         }}
       >
         <img
-          src="./assets/spa.avif"
+          src={spaimageAsset}
           className="w-full h-full object-cover opacity-60 grayscale-[40%]"
           alt="Spa Interior"
         />
